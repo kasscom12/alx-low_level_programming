@@ -7,7 +7,8 @@
  * On: This is the entry
  *
  */
-void reset to 98 (int *n)
+
+void reset_to_98 (int *n)
 {
 	*n = 98;
 }

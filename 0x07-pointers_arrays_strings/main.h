@@ -1,4 +1,12 @@
-int _putchar(char c);
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * void prototypes()
+ * int prototype()
+ */
+
+int _putchar(char);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, har *src, unsigned int n);
 char *_strchr(char *s, char c);
@@ -8,3 +16,5 @@ char *strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_sring(char **s, char *to);
+
+#endif /*MAIN_H*/

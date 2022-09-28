@@ -5,18 +5,18 @@
  * @n: the number
  * Return: i, i + 1, or -1
  */
-int helperFunction(int num, int pSqrt)
+int helperFunction(int num, int sqrt)
 {
-	if ((pSqrt * pSqrt) == num)
+	if ((sqrt * sqrt) == num)
 	{
-		return (pSqrt);
+		return (sqrt);
 	}
 	else
 	{
-		if ((pSqrt * pSqrt) > num)
+		if ((sqrt * sqrt) > num)
 			return (-1);
 		else
-			return (helperFunction(num, pSqrt + 1));
+			return (helperFunction(num, sqrt + 1));
 	}
 }
 	/**
@@ -24,7 +24,7 @@ int helperFunction(int num, int pSqrt)
 	 * @n: the number
 	 * Return: -1, 0, or sqrt
 	 */
-	int _pSqrt_recursion(int n)
+	int _sqrt_recursion(int n)
 	{
 		if (n < 0)
 			return (-1);

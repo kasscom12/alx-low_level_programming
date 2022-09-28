@@ -5,25 +5,26 @@
  * @n: the number
  * Return: i, i + 1, or -1
  */
-int helperFunction(int num, int psqrt)
+int helperFunction(int num, int pSqrt)
 {
-	if ((psqrt * psqrt) == num)
+	if ((pSqrt * pSqrt) == num)
 	{
-		return (psqrt);
+		return (pSqrt);
 	}
 	else
 	{
-		if ((psqrt * psqrt) > num)
+		if ((pSqrt * pSqrt) > num)
 			return (-1);
 		else
-			return (helperFunction(num, psqrt + 1));
+			return (helperFunction(num, pSqrt + 1));
 	}
+}
 	/**
 	 * _sqrt_recursion - finds sqrt
 	 * @n: the number
 	 * Return: -1, 0, or sqrt
 	 */
-	int _sqrt_recursion(int n)
+	int _pSqrt_recursion(int n)
 	{
 		if (n < 0)
 			return (-1);

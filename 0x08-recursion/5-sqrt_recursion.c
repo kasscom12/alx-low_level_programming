@@ -2,9 +2,9 @@
 /**
  * helperFunction - checks if sqrt of number exists 
  * @num: number
- * @sqrt: sqrt number
+ * @sqrt: sqrt number.
  *
- * Return: sqrt number 0 - for error
+ * Return: sqrt number 0 - for error.
  */
 int helperFunction(int num, int sqrt)
 {
@@ -20,15 +20,15 @@ int helperFunction(int num, int sqrt)
 			return (helperFunction(num, sqrt + 1));
 	}
 }
-	/**
-	 * _sqrt_recursion - finds sqrt
-	 * @n: the number
-	 * Return: -1, 0, or sqrt
-	 */
-	int _sqrt_recursion(int n)
-	{
+/**
+* _sqrt_recursion - finds sqrt
+* @n: the number
+* Return: -1, 0, or sqrt
+*/
+int _sqrt_recursion(int n)
+{
 		if (n < 0)
 			return (-1);
 		else
 			return (helperFunction(n, 0));
-	}
+}

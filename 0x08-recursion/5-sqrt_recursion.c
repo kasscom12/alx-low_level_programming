@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _increasevar - increases i to find sqrt
- * @i: starts at 1
- * @n: the number
- * Return: i, i + 1, or -1
+ * helperFunction - checks if sqrt of number exists 
+ * @num: number
+ * @sqrt: sqrt number
+ *
+ * Return: sqrt number 0 - for error
  */
 int helperFunction(int num, int sqrt)
 {

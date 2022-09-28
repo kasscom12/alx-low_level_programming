@@ -20,9 +20,11 @@ int helperFunction(int num, int sqrt)
 			return (helperFunction(num, sqrt + 1));
 	}
 }
+
 /**
 * _sqrt_recursion - finds sqrt
 * @n: the number
+*
 * Return: -1, 0, or sqrt
 */
 int _sqrt_recursion(int n)
